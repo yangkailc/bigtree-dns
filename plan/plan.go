@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 // PropertyComparator is used in Plan for comparing the previous and current custom annotations.

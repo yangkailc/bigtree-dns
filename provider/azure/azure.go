@@ -32,9 +32,9 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/Azure/go-autorest/autorest/to"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/yangkailc/bigtree-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/plan"
+	"github.com/yangkailc/bigtree-dns/provider"
 )
 
 const (

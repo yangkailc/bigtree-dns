@@ -25,7 +25,7 @@ import (
 	"github.com/alecthomas/kingpin"
 	"github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/source"
+	"github.com/yangkailc/bigtree-dns/source"
 )
 
 const (

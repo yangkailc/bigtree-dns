@@ -33,7 +33,7 @@ import (
 	fakeDynamic "k8s.io/client-go/dynamic/fake"
 	fakeKube "k8s.io/client-go/kubernetes/fake"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 // This is a compile-time validation that ingressRouteSource is a Source.

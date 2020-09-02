@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 // MockSource returns mock endpoints.

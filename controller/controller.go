@@ -24,11 +24,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
-	"sigs.k8s.io/external-dns/registry"
-	"sigs.k8s.io/external-dns/source"
+	"github.com/yangkailc/bigtree-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/plan"
+	"github.com/yangkailc/bigtree-dns/provider"
+	"github.com/yangkailc/bigtree-dns/registry"
+	"github.com/yangkailc/bigtree-dns/source"
 )
 
 var (

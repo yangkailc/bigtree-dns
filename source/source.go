@@ -29,8 +29,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/config"
+	"github.com/yangkailc/bigtree-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/internal/config"
 )
 
 const (

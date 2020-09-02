@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 func ExampleSameEndpoints() {

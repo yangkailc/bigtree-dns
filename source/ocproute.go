@@ -35,7 +35,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/cache"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 // ocpRouteSource is an implementation of Source for OpenShift Route objects.

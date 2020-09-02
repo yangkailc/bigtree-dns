@@ -26,10 +26,10 @@ import (
 	"github.com/scaleway/scaleway-sdk-go/scw"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/pkg/apis/externaldns"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/yangkailc/bigtree-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/pkg/apis/externaldns"
+	"github.com/yangkailc/bigtree-dns/plan"
+	"github.com/yangkailc/bigtree-dns/provider"
 )
 
 const (

@@ -15,7 +15,7 @@
 # builder image
 FROM golang:1.14 as builder
 
-WORKDIR /sigs.k8s.io/external-dns
+WORKDIR /github.com/yangkailc/bigtree-dns
 
 COPY . .
 RUN go mod vendor && \
@@ -29,7 +29,7 @@ LABEL maintainer="Team Teapot @ Zalando SE <team-teapot@zalando.de>"
 RUN apk add --update --no-cache ca-certificates && \
     update-ca-certificates
 
-COPY --from=builder /sigs.k8s.io/external-dns/build/external-dns /bin/external-dns
+COPY --from=builder /github.com/yangkailc/bigtree-dns/build/external-dns /bin/external-dns
 
 # Run as UID for nobody since k8s pod securityContext runAsNonRoot can't resolve the user ID:
 # https://github.com/kubernetes/kubernetes/issues/40958

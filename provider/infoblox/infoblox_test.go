@@ -27,10 +27,10 @@ import (
 	ibclient "github.com/infobloxopen/infoblox-go-client"
 	"github.com/stretchr/testify/assert"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/testutils"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/yangkailc/bigtree-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/internal/testutils"
+	"github.com/yangkailc/bigtree-dns/plan"
+	"github.com/yangkailc/bigtree-dns/provider"
 )
 
 type mockIBConnector struct {

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"sigs.k8s.io/external-dns/pkg/apis/externaldns"
+	"github.com/yangkailc/bigtree-dns/pkg/apis/externaldns"
 )
 
 // ValidateConfig performs validation on the Config object

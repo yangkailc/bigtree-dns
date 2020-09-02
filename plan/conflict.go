@@ -19,7 +19,7 @@ package plan
 import (
 	"sort"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 // ConflictResolver is used to make a decision in case of two or more different kubernetes resources

@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	transip "github.com/transip/gotransip/domain"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 func TestTransIPDnsEntriesAreEqual(t *testing.T) {

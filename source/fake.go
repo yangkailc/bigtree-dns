@@ -27,7 +27,7 @@ import (
 	"net"
 	"time"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 // fakeSource is an implementation of Source that provides dummy endpoints for

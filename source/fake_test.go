@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"testing"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/endpoint"
 )
 
 func generateTestEndpoints() []*endpoint.Endpoint {

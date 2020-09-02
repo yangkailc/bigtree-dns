@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/testutils"
+	"github.com/yangkailc/bigtree-dns/endpoint"
+	"github.com/yangkailc/bigtree-dns/internal/testutils"
 )
 
 // Validates that dedupSource is a Source
